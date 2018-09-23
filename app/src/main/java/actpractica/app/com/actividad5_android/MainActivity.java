@@ -33,19 +33,19 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void dataPersona() {
-        Persona persona= new Persona("Yesica Lizbeth", "Aldape García", 19);
+        Persona persona= new Persona("Allie", "Flores", 19);
         personaList.add(persona);
-        persona = new Persona("Emily Elizabeth", "Ann Cox", 20);
+        persona = new Persona("Anahí", "Flores", 20);
         personaList.add(persona);
-        persona = new Persona("Evelyn", "Treviño Piña", 19);
+        persona = new Persona("Gloria", "Sánchez", 45);
         personaList.add(persona);
-        persona = new Persona("Kimberly", "Arevalo Oroso", 22);
+        persona = new Persona("Homero", "Flores", 42);
         personaList.add(persona);
-        persona = new Persona("Marco André", "Benavides", 19);
+        persona = new Persona("Carlos", "Fernandez", 26);
         personaList.add(persona);
-        persona = new Persona("Ana Karen", "Aldape García", 14);
+        persona = new Persona("Pablo", "Marmol", 21);
         personaList.add(persona);
-        persona = new Persona("Allie Michell", "Flores Sánchez", 19);
+        persona = new Persona("Pedro", "Marmol", 22);
         personaList.add(persona);
 
         personaAdapter.notifyDataSetChanged();
